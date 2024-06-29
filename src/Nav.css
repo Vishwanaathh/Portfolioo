@@ -1,6 +1,6 @@
 #main{
     display:flex;
-    font-family:"Times New Roman", Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#ececec;
     
     opacity:0.8;
@@ -46,7 +46,7 @@ a{
 @media (max-width:480px){
     #main{
         
-        font-family:monospace;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color:#ececec;
         display:block;
         
