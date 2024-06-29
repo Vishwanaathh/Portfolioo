@@ -1,6 +1,6 @@
 import Nav from './Nav';
 import './Education.css';
-import pic from './WhatsAppImage.jpeg'; // Ensure the path is correct and the file exists
+// Ensure the path is correct and the file exists
 
 export default function Education() {
   return (
@@ -19,7 +19,7 @@ export default function Education() {
           <h5>School Topper in Physics</h5>
         </div>
         <div>
-          <img src={pic} alt="Education" /> {/* Ensure the image element is properly placed */}
+          
         </div>
       </div>
     </div>
