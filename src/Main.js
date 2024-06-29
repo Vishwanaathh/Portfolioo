@@ -13,12 +13,12 @@ export default function Main(){
         <div id="mainb">
             
             <div id="msgb">
-            <h1 id="about">About Me...</h1>
+            <h1 id="about">About Me...  <img src={pfp} id="imgg"/></h1>
            
             <h3 id="info">I am a full stack developer, Proficient in technologies such as Reactjs,Nodejs,MongoDb,Expressjs,SQL, Spring-Boot,Python,Linux
                 . I am based in Hyderabad.
             </h3>
-        <img src={pfp} id="imgg"/>
+       
             
             </div>
         </div>
