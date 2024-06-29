@@ -59,8 +59,8 @@
         margin-left: 0px;
         margin-top: 50px;
         
-        height:100px;
-        width:100px;
+        height:10px;
+        width:10px;
         border-radius: 50%;
         border:1px solid black;
         animation:fade-in 5s forwards;
