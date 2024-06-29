@@ -1,12 +1,12 @@
 import { useState } from "react";
 import './Contact.css';
 import { motion } from 'framer-motion';
-import logoo from './Screenshot 2024-06-27 192146.png';
+
 
 export default function Contact() {
-    const [flag, setFlag] = useState(false);
-    const [flagg, setFlagg] = useState(false);
-    const [slide,setSlide]=useState(false); // Initialize flag as false (boolean)
+    const [flag, setFlag] = useState(true);
+    const [flagg, setFlagg] = useState(true);
+    const [slide,setSlide]=useState(true); // Initialize flag as false (boolean)
     
     const toggle = () => {
         setFlag(!flag); // Toggle flag between true and false
@@ -41,8 +41,8 @@ export default function Contact() {
         <div animate={{opacity:1}} id="contact">
             <div class="box1">
                 <h1>Interests</h1>
-            <button onClick={toggleee}>Click here for Viewing my Interests</button>
-             <img src={logoo} style={{height:'200px'}}/>
+            <button onClick={toggleee}>Click here to toggle Viewing my Interests</button>
+             
             {(<ul style={styleeee}>
                 <li class="new"><h3 id="info">I am interested in building fast,scalable,user friendly web apps </h3></li>
                 <li class="new"><h3 id="info">I can demonstrate skills in management and leadership</h3></li>
@@ -51,7 +51,7 @@ export default function Contact() {
             </div>
             <div class="box1">
             <h1 id="head">Contact Info</h1>
-            <button onClick={toggle}>Click here for Contact info</button>
+            <button onClick={toggle}>Click here for toggling Contact info</button>
           {(<ul style={stylee}>
                 <li class="new">Email: vishwanaathh4@gmail.com</li>
                 <li class="new">City: Hyderabad</li>
@@ -59,7 +59,7 @@ export default function Contact() {
             </div>
             <div class="box1">
                 <h1>Other skills</h1>
-            <button onClick={togglee}>Click here for Other Skills</button>
+            <button onClick={togglee}>Click here for toggling Other Skills</button>
             {(<ul style={styleee}>
                 <li class="new" ><h3 id="info">Python: I am skilled in building ML and DL Models in python</h3> </li>
                 <li class="new"><h3 id="info">C++: I am skilled in solving DSA problems using C++</h3></li>
