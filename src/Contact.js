@@ -43,7 +43,7 @@ export default function Contact() {
                 <h1>Interests</h1>
             <button onClick={toggleee}>Click here to toggle Viewing my Interests</button>
              
-            {flag&&(<ul style={styleeee}>
+            {slide&&(<ul style={styleeee}>
                 <li class="new"><h3 id="info">I am interested in building fast,scalable,user friendly web apps </h3></li>
                 <li class="new"><h3 id="info">I can demonstrate skills in management and leadership</h3></li>
                 <li class="new"><h3 id="info">I have a passion for teaching</h3></li>
@@ -52,7 +52,7 @@ export default function Contact() {
             <div class="box1">
             <h1 id="head">Contact Info</h1>
             <button onClick={toggle}>Click here for toggling Contact info</button>
-          {slide&&(<ul style={stylee}>
+          {flag&&(<ul style={stylee}>
                 <li class="new">Email: vishwanaathh4@gmail.com</li>
                 <li class="new">City: Hyderabad</li>
             </ul>)}
