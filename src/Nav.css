@@ -89,6 +89,7 @@ a{
     }
     a{
         color:black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     #tagg{
         text-decoration: none;
