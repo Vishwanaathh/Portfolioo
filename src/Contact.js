@@ -43,7 +43,7 @@ export default function Contact() {
                 <h1>Interests</h1>
             <button onClick={toggleee}>Click here to toggle Viewing my Interests</button>
              
-            {(<ul style={styleeee}>
+            {flag&&(<ul style={styleeee}>
                 <li class="new"><h3 id="info">I am interested in building fast,scalable,user friendly web apps </h3></li>
                 <li class="new"><h3 id="info">I can demonstrate skills in management and leadership</h3></li>
                 <li class="new"><h3 id="info">I have a passion for teaching</h3></li>
@@ -52,7 +52,7 @@ export default function Contact() {
             <div class="box1">
             <h1 id="head">Contact Info</h1>
             <button onClick={toggle}>Click here for toggling Contact info</button>
-          {(<ul style={stylee}>
+          {flagg&&(<ul style={stylee}>
                 <li class="new">Email: vishwanaathh4@gmail.com</li>
                 <li class="new">City: Hyderabad</li>
             </ul>)}
@@ -60,7 +60,7 @@ export default function Contact() {
             <div class="box1">
                 <h1>Other skills</h1>
             <button onClick={togglee}>Click here for toggling Other Skills</button>
-            {(<ul style={styleee}>
+            {slide&&(<ul style={styleee}>
                 <li class="new" ><h3 id="info">Python: I am skilled in building ML and DL Models in python</h3> </li>
                 <li class="new"><h3 id="info">C++: I am skilled in solving DSA problems using C++</h3></li>
                 <li class="new"><h3 id="info">I am skilled in using Javascript and Java to build Web Apps.</h3></li>
