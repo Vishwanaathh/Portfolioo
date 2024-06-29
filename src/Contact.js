@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 
 export default function Contact() {
-    const [flag, setFlag] = useState(false);
-    const [flagg, setFlagg] = useState(false);
-    const [slide,setSlide]=useState(false); // Initialize flag as false (boolean)
+    const [flag, setFlag] = useState(true);
+    const [flagg, setFlagg] = useState(true);
+    const [slide,setSlide]=useState(true); // Initialize flag as false (boolean)
     
     const toggle = () => {
         setFlag(!flag); // Toggle flag between true and false
