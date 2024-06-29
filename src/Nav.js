@@ -7,7 +7,7 @@ export default function Nav(){
     }
 
     return(
-        <div id="main"><h1><a href='http://localhost:3001/home' id="tagg">Yadavalli Viswanath Parashuram</a></h1>
+        <div id="main"><h1><a href='https://portfolioo-cx0nz822j-vishwanaathhs-projects.vercel.app/Education' id="tagg">Yadavalli Viswanath Parashuram</a></h1>
         <ul id="list">
             <li><a href='http://localhost:3001/Education'>Education</a></li>
             <li><a href='http://localhost:3001/Skills'>Skills</a></li>
