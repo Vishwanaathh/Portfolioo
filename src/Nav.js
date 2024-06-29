@@ -11,7 +11,7 @@ export default function Nav(){
         <ul id="list">
             <li><a href='https://portfolioo-1z7t62id6-vishwanaathhs-projects.vercel.app/Education'>Education</a></li>
             <li><a href='https://portfolioo-1z7t62id6-vishwanaathhs-projects.vercel.app/Skills'>Skills</a></li>
-            <li><a href='https://portfolioo-1z7t62id6-vishwanaathhs-projects.vercel.app/Certifications'>Certifications</a></li>
+            <li><a href='https://portfolioo-cx0nz822j-vishwanaathhs-projects.vercel.app/Certifications'>Certifications</a></li>
             <li><a href='https://portfolioo-1z7t62id6-vishwanaathhs-projects.vercel.app/Experience'>Experience</a></li>
             <li onClick={toggle}>Projects</li>
 
