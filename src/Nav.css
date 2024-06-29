@@ -43,3 +43,53 @@ a{
 #tagg{
     text-decoration: none;
 }
+@media (max-width:480px){
+    #main{
+        
+        font-family:monospace;
+        background-color:#ececec;
+        display:block;
+        
+        opacity:0.8;
+        min-height: 150px;
+        transition:height 1s ease;
+        width:800px;
+    }
+    #list{
+        
+        margin-left: 1px;
+        list-style: none;
+        display: block;
+    }
+    li{
+        margin-left:0px;
+        margin-top: 5px;
+        text-decoration:solid;
+        
+    }
+    h1{
+        margin-left: 0%;
+    }
+    @keyframes fade{
+        0%{
+            transform:translateY(0);
+        }
+        100%{
+            transform:translateY(1%);
+        }
+    }
+    #drop{
+        margin-top: 10%;
+        margin-left: 16%;
+    }
+    li:hover{
+        opacity:0.5;
+    }
+    a{
+        color:black;
+    }
+    #tagg{
+        text-decoration: none;
+    }
+
+}
