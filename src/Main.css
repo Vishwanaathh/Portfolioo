@@ -1,0 +1,39 @@
+#mainb{
+    display:flex;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#fcfefe;
+    height:20%;
+    opacity:0.9;
+}
+#msgb{
+    margin-left: 30%;
+}
+#about{
+    margin-left: 20%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#imgg{
+    margin-left: 4%;
+    margin-top: 1%;
+    height:300px;
+    width:700px;
+    border-radius: 50%;
+    border:1px solid black;
+    animation:fade-in 5s forwards;
+}
+#info{
+    
+    animation:fade-in 5s forwards;
+    opacity:0;
+}
+#imggg{
+    opacity:1;
+    height:10px;
+}
+@keyframes fade-in{
+    0%{opacity:0;}
+    50%{opacity:0.8;}
+    100%{opacity:1};
+
+}

@@ -1,0 +1,45 @@
+#main{
+    display:flex;
+    font-family:monospace;
+    background-color:#ececec;
+    
+    opacity:0.8;
+    min-height: 150px;
+    transition:height 1s ease;
+    width:100%;
+}
+#list{
+    display:flex;
+    margin-left: 1%;
+    list-style: none;
+}
+li{
+    margin-left:20%;
+    margin-top: 20%;
+    text-decoration:solid;
+    
+}
+h1{
+    margin-left: 1%;
+}
+@keyframes fade{
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform:translateY(1%);
+    }
+}
+#drop{
+    margin-top: 10%;
+    margin-left: 16%;
+}
+li:hover{
+    opacity:0.5;
+}
+a{
+    color:black;
+}
+#tagg{
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+#lii{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    font-family:'Times New Roman', Times, serif;
+    animation:fade-in 5s forwards;
+    opacity:0;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+#listtt{
+    background-color:rgb(247, 249, 250);
+    
+
+    width:50%;
+    margin-left: 25%;
+    opacity:0.8;
+    border-radius: 10px;
+}
+
+@keyframes fade-in{
+    0%{opacity:0;}
+    50%{opacity:0.8;}
+    100%{opacity:1};
+
+}

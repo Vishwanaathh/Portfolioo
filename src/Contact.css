@@ -1,0 +1,27 @@
+.new{
+    margin-top:1%;
+    margin-left: 50%;
+    text-decoration:solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+#contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head{
+    margin-top:1%;
+}
+button{
+    margin-left: 1%;
+    background-color: white;
+    border:1px solid white;
+}
+button:hover{
+    color:blue;
+
+}
+h1:hover{
+    opacity:0.5;
+}
+ 
+
