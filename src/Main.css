@@ -9,6 +9,7 @@
 }
 #msgb{
     margin-left: 30%;
+    
 }
 #about{
     margin-left: 20%;
@@ -48,6 +49,7 @@
     }
     #msgb{
         height:300px;
+        margin-left:1px;
     }
     #about{
         margin-left: 20%;
