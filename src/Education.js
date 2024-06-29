@@ -15,7 +15,7 @@ export default function Education(){
     <h5>2021-2023</h5>
     <h5>School Topper in Physics</h5>
     </div>
-    <div><img src={pic}></img></div>
+    </div>
     </div>
     </div>)
 }
