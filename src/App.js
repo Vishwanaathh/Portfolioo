@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Experience from './Experience';
-import Certifications from './Certifications';
-import Skills from './Skills';
-import Education from './Education';
+import {Routes,Route} from "react-router-dom";
+import Experience from './pages/Experience/Experience';
+import Education from './pages/Education/Education';
+import Skills from './pages/skill/Skills';
+import Certifications from "./pages/cerification/Certifications"
+import Nav from './components/navbar/Nav';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Nav />
       <Routes>
         <Route index element={<Home/>}/>
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/Experience" element={<Experience/>}/>
-        <Route path='/Certifications' element={<Certifications/>}/>
-        <Route path='/Education' element={<Education/>}/>
-        <Route path='/Skills' element={<Skills/>}/>
+        <Route path="/experience" element={<Experience/>}/>
+        <Route path='/certifications' element={<Certifications/>}/>
+        <Route path='/education' element={<Education/>}/>
+        <Route path='/skills' element={<Skills/>}/>
       </Routes>
-      </BrowserRouter>
 </div>
   );
 }

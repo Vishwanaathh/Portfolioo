@@ -1,0 +1,46 @@
+/* Experience.css */
+.main2 {
+    margin: 10px;
+    animation: fade-in 5s forwards;
+    padding: 10px;
+}
+
+.header {
+    font-size: 25px;
+    animation: fade-in 5s forwards;
+    text-align: center;
+}
+
+.exper {
+    margin: 20px;
+    animation: fade-in 5s forwards;
+}
+
+.subHead {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fade-in 5s forwards;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main2 {
+        margin: 5px;
+    }
+    .header {
+        font-size: 20px;
+    }
+    .subHead {
+        font-size: 20px;
+    }
+    .exper {
+        margin: 10px;
+    }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}

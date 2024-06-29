@@ -1,10 +1,9 @@
-import Main from "./Main";
-import Nav from './Nav';
-import Contact from './Contact';
+
+import Main from "./components/aboutme/Main";
+import Contact from './pages/Contact/Contact';
 export default function Home(){
     return(
         <div>
-            <Nav/>
             <Main/>
             <Contact/>
         </div>
