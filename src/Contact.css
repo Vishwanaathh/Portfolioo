@@ -46,6 +46,15 @@ h1:hover{
     }
     button:hover{
         color:blue;
+    }
+     h1:hover{
+        opacity:0.5;
+    }
+    .box1{
+        margin-top: 10px;
+    }
+
+}
     
 
  
