@@ -11,12 +11,10 @@ ul{
 }
 #listtt{
     background-color:rgb(247, 249, 250);
-    
-
-    width:50%;
-    margin-left: 25%;
     opacity:0.8;
     border-radius: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
 @keyframes fade-in{
@@ -24,4 +22,12 @@ ul{
     50%{opacity:0.8;}
     100%{opacity:1};
 
+}
+
+@media (max-width: 768px) {
+    #listtt{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }

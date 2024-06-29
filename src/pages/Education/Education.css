@@ -1,0 +1,58 @@
+/* Education.css */
+.main3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.expo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expo2{
+    display: flex;
+}
+
+.box1 {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.imgEd {
+    height: 300px;
+    border-radius: 20px;
+    animation: fade-in 5s forwards;
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+.img4 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .expo2 {
+        flex-direction:column-reverse;
+    }
+    .img4, .box1 {
+        width: 100%;
+    }
+    .imgEd {
+        width: 100%;
+        height: auto;
+    }
+}

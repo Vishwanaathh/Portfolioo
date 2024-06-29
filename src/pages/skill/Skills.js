@@ -1,7 +1,5 @@
-import Nav from './Nav';
 import {useState} from "react";
 import './Skills.css';
-import piccc from './Screenshot 2024-06-27 192146.png'
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -28,7 +26,9 @@ export default function Skills(){
     const showwwwww=()=>{
         setFlagggggg(!flagggggg);
     }
-    return(<div><Nav/>
+    return(<div>
+
+
     <h1>Skills</h1>
     <div id="listtt">
     <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}>Python</h3> {flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
