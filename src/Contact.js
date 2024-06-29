@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './Contact.css';
 import { motion } from 'framer-motion';
+import logoo from './Screenshot 2024-06-27 192146.png';
 
 export default function Contact() {
     const [flag, setFlag] = useState(false);
@@ -41,6 +42,7 @@ export default function Contact() {
             <div class="box1">
                 <h1>Interests</h1>
             <button onClick={toggleee}>Click here for Viewing my Interests</button>
+             <img src={logoo} style={{height:'200px'}}/>
             {(<ul style={styleeee}>
                 <li class="new"><h3 id="info">I am interested in building fast,scalable,user friendly web apps </h3></li>
                 <li class="new"><h3 id="info">I can demonstrate skills in management and leadership</h3></li>
