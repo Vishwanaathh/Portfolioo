@@ -1,5 +1,6 @@
 import Nav from './Nav';
 import './Education.css';
+import imgggg from './Screenshot 2024-06-30 211225.png';
 // Ensure the path is correct and the file exists
 
 export default function Education() {
@@ -9,6 +10,7 @@ export default function Education() {
       <div style={{ display: 'flex' }}>
         <div>
           <h1>Education</h1>
+           <img src={imgggg} />
           <h3>B.Tech Computer Science and Engineering</h3>
           <h5>Vellore Institute of Technology</h5>
           <h5>2023-2027</h5>
