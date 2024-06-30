@@ -2,6 +2,7 @@
     display:flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#ececec;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     
     opacity:0.8;
     min-height: 150px;
