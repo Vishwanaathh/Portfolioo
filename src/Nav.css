@@ -81,8 +81,10 @@ a{
         }
     }
     #drop{
-        margin-top: 10%;
-        margin-left: 16%;
+        margin-top: 20px;
+        margin-left: 1px;
+        background-color:beige;
+   
     }
     li:hover{
         opacity:0.5;
