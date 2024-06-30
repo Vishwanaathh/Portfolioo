@@ -27,3 +27,17 @@ img{
     100%{opacity:1};
 
 }
+@media (max-width:480px){
+    img{
+    height:100px;
+    margin-left:10px;
+    margin-top:10px%;
+    border-radius: 20px;
+    animation:fade-in 5s forwards;
+    opacity:0;
+}
+    
+    
+
+}
+    
