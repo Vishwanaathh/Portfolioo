@@ -45,14 +45,14 @@ export default function Contact() {
                 <button onClick={toggle} id="InterestsB">Click here to view Contact info</button>
                 {flag && (
                     <ul style={stylee} id="second">
-                        <li className="new">Email: vishwanaathh4@gmail.com</li>
-                        <li className="new">City: Hyderabad</li>
+                        <li className="neww">Email: vishwanaathh4@gmail.com</li>
+                        <li className="neww">City: Hyderabad</li>
                     </ul>
                 )}
             </div>
             <div className="box1">
                 <h1 id="Oskills">Other skills</h1>
-                <button onClick={togglee} id="InterestsB">Click To View My Other Skills</button>
+                <button onClick={togglee} id="OskillsB">Click To View My Other Skills</button>
                 {flagg && (
                     <ul style={stylee} id="third">
                         <li className="new"><h3 id="info">Python: I am skilled in building ML and DL Models in Python</h3></li>
