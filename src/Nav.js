@@ -7,8 +7,9 @@ export default function Nav(){
     }
 
     return(
-        <div id="main"><h1><a href='https://portfolioo-git-master-vishwanaathhs-projects.vercel.app/' id="tagg">Viswanath Parashuram</a><br/>Yadavalli</h1>
+        <div id="main"><h1><a href='https://portfolioo-git-master-vishwanaathhs-projects.vercel.app/' id="tagg">Viswanath Parashuram</a></h1>
         <ul id="list">
+        
             <li><a href='https://portfolioo-git-master-vishwanaathhs-projects.vercel.app/Education'>Education</a></li>
             <li><a href='https://portfolioo-git-master-vishwanaathhs-projects.vercel.app/Skills'>Skills</a></li>
             <li><a href='https://portfolioo-git-master-vishwanaathhs-projects.vercel.app/Certifications'>Certifications</a></li>
