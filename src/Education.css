@@ -14,7 +14,7 @@ h1{
     
 }
 img{
-    height:300px;
+    height:200px;
     margin-left: 130%;
     margin-top:20%;
     border-radius: 20px;
@@ -30,7 +30,7 @@ img{
 @media (max-width:480px){
     img{
     height:100px;
-    margin-left:100px;
+    margin-left:120px;
     margin-top:10px;
     border-radius: 20px;
     animation:fade-in 5s forwards;
