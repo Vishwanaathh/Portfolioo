@@ -15,7 +15,7 @@ h1{
 }
 img{
     height:300px;
-    margin-left: 200%;
+    margin-left: 100%;
     margin-top:20%;
     border-radius: 20px;
     animation:fade-in 5s forwards;
