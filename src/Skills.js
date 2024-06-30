@@ -1,7 +1,7 @@
 import Nav from './Nav';
 import {useState} from "react";
 import './Skills.css';
-import piccc from './Screenshot 2024-06-27 192146.png'
+import skills from './Screenshot 2024-06-30 212641.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -30,6 +30,7 @@ export default function Skills(){
     }
     return(<div><Nav/>
     <h1>Skills</h1>
+    <img src={skills} />
     <div id="listtt">
     <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}>Python</h3> {flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showw} onMouseLeave={showw}>C++</h3> {flagg&&(<div>I am extremely skilled at this! I can solve DSA Problems</div>)}</li>
