@@ -41,8 +41,8 @@ export default function Contact() {
                 )}
             </div>
             <div className="box1">
-                <h1 id="Cinfo">Contact Info</h1>
-                <button onClick={toggle} id="CinfoB">Click here to view Contact info</button>
+                <h1 id="Interests">Contact Info</h1>
+                <button onClick={toggle} id="InterestsB">Click here to view Contact info</button>
                 {flag && (
                     <ul style={stylee} id="second">
                         <li className="new">Email: vishwanaathh4@gmail.com</li>
@@ -51,8 +51,8 @@ export default function Contact() {
                 )}
             </div>
             <div className="box1">
-                <h1 id="Oskills">Other skills</h1>
-                <button onClick={togglee} id="OskillsB">Click To View My Other Skills</button>
+                <h1 id="Interests">Other skills</h1>
+                <button onClick={togglee} id="InterestsB">Click To View My Other Skills</button>
                 {flagg && (
                     <ul style={stylee} id="third">
                         <li className="new"><h3 id="info">Python: I am skilled in building ML and DL Models in Python</h3></li>
