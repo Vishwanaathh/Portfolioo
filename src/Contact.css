@@ -68,10 +68,11 @@ h1:hover{
 
 
     }
-    #first{
+    li{
+        margin-left:10px;
 
-     margin-left:10px;
     }
+}
     
 
 }
