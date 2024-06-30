@@ -30,7 +30,7 @@ img{
 @media (max-width:480px){
     img{
     height:100px;
-    margin-left:10px;
+    margin-left:100px;
     margin-top:10px;
     border-radius: 20px;
     animation:fade-in 5s forwards;
