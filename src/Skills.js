@@ -6,7 +6,7 @@ import python from './Python-Symbol.png';
 import javascript from './Javascript.png';
 import reactlogo from './react.png';
 import nodejs from './nodejs.png';
-import mongodb from './MongoDb.png';
+import mongodb from './MongoDB.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
