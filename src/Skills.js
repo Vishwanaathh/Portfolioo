@@ -7,6 +7,7 @@ import javascript from './Javascript.png';
 import reactlogo from './react.png';
 import nodejs from './nodejs.png';
 import mongodb from './MongoDB.png';
+import cpp from './cpp.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -38,7 +39,7 @@ export default function Skills(){
     
     <div id="listtt">
     <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}><img id="python" src={python}/></h3>{flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
-    <li id="lii"><h3 onMouseEnter={showw} onMouseLeave={showw}>C++</h3> {flagg&&(<div>I am extremely skilled at this! I can solve DSA Problems</div>)}</li>
+    <li id="lii"><h3 onMouseEnter={showw} onMouseLeave={showw}><img id="python" src={cpp}/></h3> {flagg&&(<div>I am extremely skilled at this! I can solve DSA Problems</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showww} onMouseLeave={showww}><img id="python" src={javascript}/></h3>{flaggg&&(<div>I am Extremely skilled at this.I can build Web Apps and CLI Tools</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showwww} onMouseLeave={showwww}><img id="python" src={reactlogo}/></h3>{flagggg&&(<div>I am skilled at this.I can build Web Apps</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showwwww} onMouseLeave={showwwww}><img id="python" src={nodejs}/></h3>{flaggggg&&(<div>I am skilled at this.I can build Web Apps and use ExpressJs</div>)}</li>
