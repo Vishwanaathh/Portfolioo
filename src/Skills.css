@@ -13,7 +13,7 @@ ul{
 
     
 
-    width:50%;
+    width:75%;
     margin-left: 25%;
     opacity:0.8;
     
@@ -26,23 +26,4 @@ ul{
     100%{opacity:1};
 
 }
-#python{
-    margin-left:1px;
 
-
-}
-h3{
-    margin-left:1px;
-
-
-}
-#reactt{
-
-tranform:translateX(50px);
-
-}
-#springboot{
-    tranform:translateX(50px);
-
-
-}
