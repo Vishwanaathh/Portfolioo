@@ -2,6 +2,7 @@ import Nav from './Nav';
 import {useState} from "react";
 import './Skills.css';
 import skills from './Screenshot 2024-06-30 212641.png';
+import python from './Python-Symbol.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -32,7 +33,7 @@ export default function Skills(){
     <h1>Skills</h1>
     
     <div id="listtt">
-    <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}>Python</h3> {flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
+    <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}>Python<img id="python" src={python}/></h3> {flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showw} onMouseLeave={showw}>C++</h3> {flagg&&(<div>I am extremely skilled at this! I can solve DSA Problems</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showww} onMouseLeave={showww}>Javascript</h3>{flaggg&&(<div>I am Extremely skilled at this.I can build Web Apps and CLI Tools</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showwww} onMouseLeave={showwww}>Reactjs</h3>{flagggg&&(<div>I am skilled at this.I can build Web Apps</div>)}</li>
