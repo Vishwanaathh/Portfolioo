@@ -4,19 +4,19 @@
     font-family:'Times New Roman', Times, serif;
     animation:fade-in 5s forwards;
     opacity:0;
-    text-decoration: underline;
+    
 }
 ul{
     list-style: none;
 }
 #listtt{
-    background-color:rgb(247, 249, 250);
+
     
 
     width:50%;
     margin-left: 25%;
     opacity:0.8;
-    border-radius: 10px;
+    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
 }
 
