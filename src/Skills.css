@@ -1,6 +1,6 @@
 #lii{
     margin-top: 0.5%;
-    margin-left: 1%;
+    margin-left: 1px;
     font-family:'Times New Roman', Times, serif;
     animation:fade-in 5s forwards;
     opacity:0;
