@@ -8,6 +8,10 @@ import reactlogo from './react.png';
 import nodejs from './nodejs.png';
 import mongodb from './MongoDB.png';
 import cpp from './cpp.png';
+import sql from './Mysql.png';
+import java from './java.png';
+import springboot from './springboot.png';
+import Docker from './dockerlogo.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -44,10 +48,10 @@ export default function Skills(){
     <li id="lii"><h3 onMouseEnter={showwww} onMouseLeave={showwww}><img id="python" src={reactlogo}/></h3>{flagggg&&(<div>I am skilled at this.I can build Web Apps</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showwwww} onMouseLeave={showwwww}><img id="python" src={nodejs}/></h3>{flaggggg&&(<div>I am skilled at this.I can build Web Apps and use ExpressJs</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showwwwww} onMouseLeave={showwwwww}><img id="python" src={mongodb}/></h3>{flagggggg&&(<div>I am skilled at this.I can build Web Apps and use mongoose</div>)}</li>
-    <li id="lii"><h3>SQL</h3></li>
-    <li id="lii"><h3>Java</h3></li>
-    <li id="lii"><h3>Spring-Boot</h3></li>
-    <li id="lii"><h3>Docker</h3></li>
+    <li id="lii"><h3><img id="python" src={sql}/></h3></li>
+    <li id="lii"><h3><img id="python" src={java}/></h3></li>
+    <li id="lii"><h3><img id="python" src={springboot}/></h3></li>
+    <li id="lii"><h3><img id="python" src={Docker}/></h3></li>
     <li id="lii"><h3>Git</h3></li>
     <li id="lii"><h3>Github</h3></li>
     
