@@ -3,6 +3,10 @@ import {useState} from "react";
 import './Skills.css';
 import skills from './Screenshot 2024-06-30 212641.png';
 import python from './Python-Symbol.png';
+import javascript from './Javascript.png';
+import reactlogo from './react.png';
+import nodejs from './nodejs.png';
+import mongodb from './MongoDb.png';
 export default function Skills(){
     const [flag,setFlag]=useState(false)
     const show=()=>{
@@ -35,10 +39,10 @@ export default function Skills(){
     <div id="listtt">
     <ul><li id="lii"><h3 onMouseEnter={show} onMouseLeave={show}><img id="python" src={python}/></h3>{flag&&(<div>I am extremely skilled at this! I can build Web apps and ML Models..</div>)}</li>
     <li id="lii"><h3 onMouseEnter={showw} onMouseLeave={showw}>C++</h3> {flagg&&(<div>I am extremely skilled at this! I can solve DSA Problems</div>)}</li>
-    <li id="lii"><h3 onMouseEnter={showww} onMouseLeave={showww}><img id="python" src={python}/></h3>{flaggg&&(<div>I am Extremely skilled at this.I can build Web Apps and CLI Tools</div>)}</li>
-    <li id="lii"><h3 onMouseEnter={showwww} onMouseLeave={showwww}><img id="python" src={python}/></h3>{flagggg&&(<div>I am skilled at this.I can build Web Apps</div>)}</li>
-    <li id="lii"><h3 onMouseEnter={showwwww} onMouseLeave={showwwww}><img id="python" src={python}/></h3>{flaggggg&&(<div>I am skilled at this.I can build Web Apps and use ExpressJs</div>)}</li>
-    <li id="lii"><h3 onMouseEnter={showwwwww} onMouseLeave={showwwwww}><img id="python" src={python}/></h3>{flagggggg&&(<div>I am skilled at this.I can build Web Apps and use mongoose</div>)}</li>
+    <li id="lii"><h3 onMouseEnter={showww} onMouseLeave={showww}><img id="python" src={javascript}/></h3>{flaggg&&(<div>I am Extremely skilled at this.I can build Web Apps and CLI Tools</div>)}</li>
+    <li id="lii"><h3 onMouseEnter={showwww} onMouseLeave={showwww}><img id="python" src={reactlogo}/></h3>{flagggg&&(<div>I am skilled at this.I can build Web Apps</div>)}</li>
+    <li id="lii"><h3 onMouseEnter={showwwww} onMouseLeave={showwwww}><img id="python" src={nodejs}/></h3>{flaggggg&&(<div>I am skilled at this.I can build Web Apps and use ExpressJs</div>)}</li>
+    <li id="lii"><h3 onMouseEnter={showwwwww} onMouseLeave={showwwwww}><img id="python" src={mongodb}/></h3>{flagggggg&&(<div>I am skilled at this.I can build Web Apps and use mongoose</div>)}</li>
     <li id="lii"><h3>SQL</h3></li>
     <li id="lii"><h3>Java</h3></li>
     <li id="lii"><h3>Spring-Boot</h3></li>
