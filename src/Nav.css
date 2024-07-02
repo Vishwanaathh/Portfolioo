@@ -50,7 +50,9 @@ a{
     #main{
         
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color:#ececec;
+        
+        background-color:#181934;
+        color:white;
         display:block;
         
         opacity:0.8;
